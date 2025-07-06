@@ -1,4 +1,3 @@
-# FDeep.AIChatbot
 # FDeep.AIChatbot Dijital Pazarlama ve Reklam Asistanı (Teknofest 2025)
 
 ## Proje Tanımı
