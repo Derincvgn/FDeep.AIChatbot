@@ -16,6 +16,19 @@ Bu özellik, veri güvenliğine öncelik veren büyük ölçekli şirketler içi
 
 ---
 
+Takım Adı: FDeep.AI
+Teknofest 2025 Türkçe Doğal Dil İşleme Yarışması Serbest Kategori için oluşturulmuştur.
+
+---
+
+Takım Üyeleri
+Feyza Kıranlıoğlu GitHub: https://github.com/feyzakir
+Derin Çıvgın GitHub: https://github.com/Derincvgn
+Ayşe Nur Özer GitHub: https://github.com/ozeraysenur
+Ləman Osmanlı GitHub: https://github.com/Leman2006
+
+---
+
 ## Kullanılan Teknolojiler ve Mimariler  
 
 - **Retrieval-Augmented Generation (RAG)** mimarisi  
@@ -44,25 +57,6 @@ pip install -r requirements.txt
 
 ------------
 
-Takım Adı: FDeep.AI
-Teknofest 2025 Türkçe Doğal Dil İşleme Yarışması Serbest Kategori için oluşturulmuştur.
-
-------------
-
-Takım Üyeleri
-Feyza Kıranlıoğlu GitHub: https://github.com/feyzakir
-Derin Çıvgın GitHub: https://github.com/Derincvgn
-Ayşe Nur Özer GitHub: https://github.com/ozeraysenur
-Ləman Osmanlı GitHub: https://github.com/Leman2006
-
-------------
-
-2. PDF Veri Setini Ekleme
-Proje, `dijitalpazarlama_reklamkaynakları` adlı klasör altında PDF belgesiyle birlikte gelir.
-Bu klasör, `main.py` çalıştırıldığında otomatik olarak yüklenir. Ekstra bir bağlantıya ihtiyaç yoktur.
-
- ------------
-
-3. Uygulamayı Başlatma
+2. Uygulamayı Başlatma
 ```bash
 streamlit run main.py
