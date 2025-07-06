@@ -2,32 +2,32 @@
 
 ## Proje Tanımı
 
-*FDeepAI, KOBİ'ler ve bireysel girişimciler için ajanslara olan bağımlılığı azaltmayı hedefleyen, **doğal dil işleme* ve *çok modelli yapay zeka* tabanlı bir asistandır.  
+**FDeepAI**, KOBİ'ler ve bireysel girişimciler için ajanslara olan bağımlılığı azaltmayı hedefleyen, **doğal dil işleme** ve **çok modelli yapay zeka** tabanlı bir asistandır.  
 
 Sistem:  
 - Dijital pazarlama ve reklamcılık alanında bilgi sunar.  
-- Yüklenen *PDF belgeleri* üzerinden RAG (Retrieval-Augmented Generation) ile analiz yapar ve Türkçe yanıtlar üretir.  
-- *Görsel yorumlama* (resimden açıklama üretme) ve *OCR (görselden yazı okuma)* özelliklerine sahiptir.  
-- Görsellerden elde edilen bilgilerle *metin sınıflandırması* yapar ve pazarlama odaklı açıklamalar üretir.  
+- Yüklenen **PDF belgeleri** üzerinden RAG (Retrieval-Augmented Generation) ile analiz yapar ve Türkçe yanıtlar üretir.  
+- **Görsel yorumlama** (resimden açıklama üretme) ve **OCR (görselden yazı okuma)** özelliklerine sahiptir.  
+- Görsellerden elde edilen bilgilerle **metin sınıflandırması** yapar ve pazarlama odaklı açıklamalar üretir.  
 - Teknik bilgisi sınırlı kullanıcıların bile profesyonel kampanya içerikleri hazırlamasına yardımcı olur.  
 
-Tüm sistem *yerel ortamda çalışır* ve bu sayede *veri gizliliği %100 güvence* altına alınır.  
+Tüm sistem **yerel ortamda çalışır** ve bu sayede **veri gizliliği %100 güvence** altına alınır.  
 Bu özellik, veri güvenliğine öncelik veren büyük ölçekli şirketler için de önemli bir tercih sebebidir.
 
 ---
 
 ## Kullanılan Teknolojiler ve Mimariler  
 
-- *Retrieval-Augmented Generation (RAG)* mimarisi  
-- *LangChain*: Belge bölme, sorgulama zinciri, RAG yapılandırması  
-- *FAISS + SentenceTransformers*: Vektör tabanlı belge arama  
-- *Ollama + LLaMA.cpp*: Yerel LLM çalıştırma (Mistral, LLaMA, Qwen, Gemma, DeepSeek destekli)  
-- *LLaVA 1.5 / Onevision*: Görselden içerik önerisi
-- *BLIP-2*: Görselden açıklama üretme  
-- *OCR (Tesseract)*: Görsellerdeki yazılı metni tanıma ve çıkartma  
-- *Metin Sınıflandırma (Text Classification)*: Görseldeki nesneyi tanıma
-- *Streamlit*: Web tabanlı kullanıcı arayüzü  
-- *Python 3.10+*, torch (CUDA destekli), langchain, sentence-transformers, transformers, deep-translator  
+- **Retrieval-Augmented Generation (RAG)** mimarisi  
+- **LangChain**: Belge bölme, sorgulama zinciri, RAG yapılandırması  
+- **FAISS + SentenceTransformers**: Vektör tabanlı belge arama  
+- **Ollama + LLaMA.cpp**: Yerel LLM çalıştırma (Mistral, LLaMA, Qwen, Gemma, DeepSeek destekli)  
+- **LLaVA 1.5 / Onevision**: Görselden içerik önerisi
+- **BLIP-2**: Görselden açıklama üretme  
+- **OCR (Tesseract)**: Görsellerdeki yazılı metni tanıma ve çıkartma  
+- **Metin Sınıflandırma (Text Classification)**: Görseldeki nesneyi tanıma
+- **Streamlit**: Web tabanlı kullanıcı arayüzü  
+- **Python 3.10+**, `torch` (CUDA destekli), `langchain`, `sentence-transformers`, `transformers`, `deep-translator`  
 
 ---
 
@@ -35,7 +35,7 @@ Bu özellik, veri güvenliğine öncelik veren büyük ölçekli şirketler içi
 
 1. Ortam Kurulumu
 
-bash
+```bash
 git clone https://github.com/Derincvgn/FDeep.AIChatbot.git
 cd FDeep.AIChatbot
 python -m venv .venv
@@ -64,5 +64,5 @@ Bu klasör, `main.py` çalıştırıldığında otomatik olarak yüklenir. Ekstr
  ------------
 
 3. Uygulamayı Başlatma
-bash
+```bash
 streamlit run main.py
